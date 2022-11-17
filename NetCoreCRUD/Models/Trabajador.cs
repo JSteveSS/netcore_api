@@ -8,16 +8,16 @@ namespace NetCoreCRUD.Models
     public class Trabajador
     {
 
-        public int TrabajadorCodigo { get; set; }
-        public string TrabajadorNombre { get; set; }
-        public string TrabajadorApellidoPaterno { get; set; }
-        public string TrabajadorApellidoMaterno { get; set; }
-        public string TrabajadorFechaDeNacimiento { get; set; }
-        public string TrabajadorTipoDeDocumento { get; set; }
-        public string TrabajadorNumeroDeDocumento { get; set; }
-        public string TrabajadorSueldo { get; set; }
-        public string TrabajadorEstado { get; set; }
-        public string TrabajadorCamposDeAuditoria { get; set; }
+        public int id { get; set; }
+        public string nombre { get; set; }
+        public string apellido_paterno { get; set; }
+        public string apellido_materno { get; set; }
+        public string fecha_nacimiento { get; set; }
+        public string tipo_documento { get; set; }
+        public string numero_documento { get; set; }
+        public string sueldo { get; set; }
+        public string estado { get; set; }
+        public string campos_auditoria { get; set; }
 
     }
 }
